@@ -1,8 +1,8 @@
-package me.johyeonjung.post_mini_project_back.security;
+package com.korit.post_mini_project_back.security;
 
+import com.korit.post_mini_project_back.entity.User;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
-import me.johyeonjung.post_mini_project_back.entity.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

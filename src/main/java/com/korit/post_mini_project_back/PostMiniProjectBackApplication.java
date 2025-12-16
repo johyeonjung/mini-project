@@ -1,4 +1,4 @@
-package me.johyeonjung.post_mini_project_back;
+package com.korit.post_mini_project_back;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

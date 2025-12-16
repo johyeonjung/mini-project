@@ -1,4 +1,4 @@
-package me.johyeonjung.post_mini_project_back.config;
+package com.korit.post_mini_project_back.config;
 
 import io.swagger.v3.oas.models.Components;
 import io.swagger.v3.oas.models.OpenAPI;
@@ -14,10 +14,11 @@ public class OpenApiConfig {
     @Bean
     public OpenAPI openAPIConfig() {
         OpenAPI openAPI = new OpenAPI();
+
         Info info = new Info();
-        info.title("스프링 부트 수업");
+        info.title("소셜 게시판 미니 프로젝트");
         info.version("1.0");
-        info.description("JWT 인증 적용을 위한 설정중.");
+        info.description("소셜 게시판 미니 프로젝트");
 
         SecurityRequirement securityRequirement = new SecurityRequirement();
         securityRequirement.addList("Bearer Authentication");

@@ -1,4 +1,4 @@
-package me.johyeonjung.post_mini_project_back.entity;
+package com.korit.post_mini_project_back.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -15,7 +15,11 @@ public class User {
     private int userId;
     private String oauth2Id;
     private String nickname;
+    private String name;
     private String email;
-    private LocalDateTime createdAt;
+    private String provider;
     private String role;
+    private String imgUrl;
+    private String imgFilePath;
+    private LocalDateTime createdAt;
 }
